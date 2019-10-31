@@ -18,7 +18,7 @@ class Scraper
     # binding.pry
   end
   
-  def get_courses(title, schedule, description)
+  def get_courses
     self.get_page.css(".post")
   end
   
