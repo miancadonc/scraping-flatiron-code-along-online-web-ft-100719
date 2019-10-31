@@ -19,7 +19,7 @@ class Scraper
   end
   
   def get_courses(title, schedule, description)
-    
+    self.get_page.css(".post")
   end
   
   def make_courses
